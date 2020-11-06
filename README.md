@@ -1,40 +1,20 @@
-## Python OOP example lesson
+# OOP - Object Oriented Programming
 
-**step 1**
-- create an animal class as our Parent
-
-**step 2**
-- create reptile class as the child class
-- why? so we can Inherit from our Parent
-
-**step 3**
-- create xx class as the child class
-
-
-# Tasks
-
-### Task 1
+## There are four pillars
 ```
-Write a program that prints the numbers from 1 to 100. For multiples of three print "Fizz" instead of the number
-For the multiples of five print "Buzz" instead of the number For numbers which are multiples of both three and five print "FizzBuzz".
-```
-### Task 1v2.0
-```
-Extra:
-make a new fizzbuzz file and make it functional make it so we we can decide which numbers to substitute for fizz and buzz using functions
+1. Inheritance (most used) - Eliminates redundant code. We can use all functions and variable from parent class
+
+2. Encapsulation - Reduce complexity and increase reusability. Also used to reduce access, making private methods/ variables etc.
+
+3. Abstraction - Reduce complexity and isolate impact of changes.
+
+4. Polymorphism (Many Forms) - Refactor code or case statements. It allows us to change behaviour or attributes / variables
 ```
 
-### Task 2
+# In Python, everything is an object!
 ```
-You are going to make a program that helps a waiter with his menu and his orders.
-See tasks for the user stories.
-```
+- A variable (object) is just an instance of its type (class).
+- That's why when you check the type of a variable you can see the class keyword right next to its type (class).
 
-- User stories:
-```
-1. AS a User I want to be able to see the menu in a formated way, so that I can order my meal.
-
-2. AS a User I want to be able to order 3 times, and have my responses added to a list so they aren't forgotten
-
-3. As a user, I want to have my order read back to me in formated way so I know what I ordered.
+--> The class is a blueprint for an object.
 ```
