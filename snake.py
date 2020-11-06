@@ -12,7 +12,8 @@ class Snake(Reptile):
     # creating functions for our Snake class
     def use_tongue_to_smell(self):
         return "I use tongue to taste "
-
+    
+# instantiate our class/ create and object
 snake_object = Snake()
 
 print(snake_object.limbs)
