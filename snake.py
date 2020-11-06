@@ -18,4 +18,4 @@ snake_object = Snake()
 
 print(snake_object.limbs)
 print(snake_object.breathe())
-# We have double inheritance and Encapsulated in fucntions in parent classes
+# We have double inheritance and Encapsulated in functions in parent classes
