@@ -9,15 +9,15 @@ class Animal:
         self.lungs = True
         self.eyes = True
 
-    # create behaviours as fucntions/methods
+    # create behaviours as functions/methods
     def breathe(self):
         return "Keep breathing to stay alive "
 
     def move(self):
-        return "left to right and up and down...."
+        return "left to right and up and down..."
 
     def eat(self):
-        return "Nom Nom Nom"
+        return "Miam Miam Miam"
 
     def procreate(self):
         return "find partner"
