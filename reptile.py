@@ -21,7 +21,7 @@ class Reptile(Animal):
     def use_venum(self):
         return "if I've got it I'm using it"
 
-# Let's create an object of our Reptile class to utilise the amazing functionalities of OOP
+# instantiate our class/ create and object
 reptile_object = Reptile()
 
 print(reptile_object.eat())
